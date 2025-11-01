@@ -1,0 +1,66 @@
+{
+  "templates": [
+    {
+      "id": "basic",
+      "name": "Basic",
+      "description": "Simple tome with minimal metadata",
+      "tomeJson": {
+        "version": "1.0.0",
+        "name": "",
+        "description": "",
+        "author": "",
+        "created": ""
+      },
+      "files": []
+    },
+    {
+      "id": "book_chapter",
+      "name": "Book Chapter",
+      "description": "",
+      "tomeJson": {
+        "type": "book_chapter",
+        "version": "1.0.0",
+        "name": "Chapter 1",
+        "description": "",
+        "author": "",
+        "publisher": "",
+        "maturity": "",
+        "created": ""
+      },
+      "files": [
+        {
+          "path": "markdown/content.md",
+          "language": "markdown",
+          "content": "# Chapter 1\n\n Chapter content for this tome."
+        }
+      ]
+    },
+    {
+      "id": "comic_chapter",
+      "name": "Comic Chapter",
+      "description": "",
+      "tomeJson": {
+        "type": "comic_chapter",
+        "version": "1.0.0",
+        "name": "Chapter 1",
+        "description": "",
+        "authors": [
+          {
+            "name":""
+          }
+        ],
+        "translator": "",
+        "publisher": "",
+        "maturity": "",
+        "created": ""
+      },
+      "files": [
+        {
+          "path": "markdown/content.md",
+          "language": "markdown",
+          "content": "# Chapter 1\n\n Chapter content for this tome."
+        }
+      ]
+    }
+  ]
+}
