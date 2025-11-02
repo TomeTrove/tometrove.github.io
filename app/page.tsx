@@ -355,6 +355,11 @@ export default function Home() {
                     Explore All Tools
                   </Button>
                 </Link>
+                <Link href="/projects">
+                  <Button size="lg" variant="outline">
+                    Explore Our Ecosystem
+                  </Button>
+                </Link>
                 <Link href="/standards">
                   <Button size="lg" variant="outline">
                     Learn More About Standards
