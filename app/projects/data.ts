@@ -49,6 +49,16 @@ export const projects: Project[] = [
     fullDescription:
       "Reader Lite is a lightweight desktop application built with Tauri that provides a focused experience for reading individual .tome files. Designed for users who want a simple, straightforward reader without the additional complexity of library management. Ideal for quick access to specific tome files.",
     techStack: ["Tauri", "React", "TypeScript"],
+    versions: [
+      {
+        version: "0.1.0",
+        releaseDate: "November 2, 2025",
+        notes: "First test release",
+        downloads: [
+          { platform: "Windows", url: "https://github.com/TomeTrove/reader-tauri-lite/releases/download/v0.1.0/tauridesktopreaderlite_0.1.0_x64-setup_windows.exe" },
+        ],
+      },
+    ]
   },
   {
     id: "reader-tauri",
