@@ -352,7 +352,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/tools">
                   <Button size="lg">
-                    Explore All Tools
+                    Explore Online Tools
                   </Button>
                 </Link>
                 <Link href="/projects">

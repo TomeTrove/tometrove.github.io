@@ -1,6 +1,7 @@
 import { getProjectByCategory } from "./data";
 import { ProjectCard } from "./components/ProjectCard";
-import { Layers } from "lucide-react";
+import { Layers, ArrowLeft } from "lucide-react";
+import Link from "next/link";
 
 export const metadata = {
   title: "Projects | TomeTrove",
@@ -29,6 +30,15 @@ export default function ProjectsPage() {
   return (
     <div className="min-h-screen bg-background">
       <div className="mx-auto px-4 py-12" style={{ maxWidth: "900px" }}>
+        {/* Back Button */}
+        <Link
+          href="/"
+          className="inline-flex items-center text-sm text-primary hover:text-primary/80 mb-8 transition-colors"
+        >
+          <ArrowLeft className="mr-2 h-4 w-4" />
+          Back to Homepage
+        </Link>
+
         {/* Header Section */}
         <div className="mb-16 pb-12 border-b">
           <h1 className="text-5xl font-bold mb-4 text-foreground">Projects</h1>
